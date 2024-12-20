@@ -7,7 +7,7 @@ This is a MATLAB App Designer file for creating an interactive graphical user in
 
 Input RLC circuit parameters (Resistance, Inductance, Capacitance).
 Specify the desired frequency range.
-Visualize the frequency response and analyze circuit performance.
+
 circuit_simulation.slx
 A Simulink model for simulating the RLC circuit based on user-defined parameters. This model computes circuit responses and generates data for visualization in the GUI.
 
