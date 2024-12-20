@@ -22,7 +22,7 @@ A Simulink model for simulating the RLC circuit based on user-defined parameters
 
 1)Interactive Input: Customize RLC parameters,frequency and amplitude.
 
-2)Visualization: Real-time plotting of user defined parameters  curves.
+2)Visualization: Real-time plotting of user defined parameter  curves.
 
 3)Flexibility: Suitable for educational purposes and quick circuit analysis.
 
