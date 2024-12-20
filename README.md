@@ -1,8 +1,8 @@
-Interactive RLC Circuit Analyzer:
+Interactive RLC Circuit Analyzer
 
 This repository contains tools for simulating and analyzing RLC circuits using MATLAB and Simulink. It provides an interactive environment to explore circuit behavior and visualize responses.
 
-Files in the Repository:
+Files in the Repository:-
 
 1)User_Input.mlapp
 
@@ -18,7 +18,7 @@ The app allows users to:
 
 A Simulink model for simulating the RLC circuit based on user-defined parameters. This model computes circuit responses and generates data for visualization .
 
-Features:
+Features:-
 
 1)Interactive Input: Customize RLC parameters,frequency and amplitude.
 
@@ -26,7 +26,7 @@ Features:
 
 3)Flexibility: Suitable for educational purposes and quick circuit analysis.
 
-How to Use:
+How to Use:-
 
 1)Open MATLAB and navigate to the repository folder.
 
@@ -42,7 +42,7 @@ open_system('circuit_simulation.slx')
 
 4)Use the GUI to input circuit parameters and Simulink model to visualize results.
 
-Requirements:
+Requirements:-
 1)MATLAB (R2021b or later recommended)
 
 2)Simulink
