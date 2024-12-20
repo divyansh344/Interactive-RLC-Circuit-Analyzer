@@ -1,4 +1,32 @@
-# Matlab-Circuit-Simulation
-I've made a RLC circuit simulator which takes values of circuit parameters from user and shows the output (rms values and waveforms) based on that
-1) first open the user input app and input the values and click on submit button and then open the circuit simulation app 
-2) For circuit simulation choose the stop time and click on the Run button to observe the output
+Interactive RLC Circuit Analyzer
+This repository contains tools for simulating and analyzing RLC circuits using MATLAB and Simulink. It provides an interactive environment to explore circuit behavior and visualize frequency responses.
+Files in the Repository
+User_Input.mlapp
+This is a MATLAB App Designer file for creating an interactive graphical user interface (GUI). The app allows users to:
+Input RLC circuit parameters (Resistance, Inductance, Capacitance).
+Specify the desired frequency and voltage amplitude.
+circuit_simulation.slx
+A Simulink model for simulating the RLC circuit based on user-defined parameters. This model computes circuit responses and generates data for visualization .
+Features
+Interactive Input: Customize RLC parameters and frequency range.
+Visualization: Real-time plotting of frequency response curves.
+Flexibility: Suitable for educational purposes and quick circuit analysis.
+How to Use
+Open MATLAB and navigate to the repository folder.
+Launch the GUI:
+matlab
+Copy code
+appdesigner User_Input.mlapp
+Open the Simulink model:
+matlab
+Copy code
+open_system('circuit_simulation.slx')
+Use the GUI to input circuit parameters and visualize results.
+Requirements
+MATLAB (R2021b or later recommended)
+Simulink
+App Designer Toolbox
+Contributing
+Feel free to fork this repository and make improvements. Contributions are welcome!
+
+
